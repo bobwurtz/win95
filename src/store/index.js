@@ -1115,7 +1115,7 @@ export default new Vuex.Store({
       {
         windowId: "BiographyWindow", // Unique ID
         windowState: "close", // Window State [open, close, minimize]
-        displayName: "Biography", // Display Name (title under icon)
+        displayName: "Sean and Taylor", // Display Name (title under icon)
         windowComponent: "window", // Window Component (can be changed to use modified windows)
         windowContent: "bio", // Window Content (used under slots)
         windowContentPadding: {
@@ -1133,133 +1133,133 @@ export default new Vuex.Store({
         showInAppGrid: true,
         showInNavbar: true,
       },
-      {
-        windowId: "ResumeWindow", // Unique ID
-        windowState: "close", // Window State [open, close, minimize]
-        displayName: "Résumé", // Display Name (title under icon)
-        windowComponent: "window", // Window Component (can be changed to use modified windows)
-        windowContent: "resume", // Window Content (used under slots)
-        windowContentPadding: {
-          top: "0",
-          right: "0",
-          bottom: "0",
-          left: "0",
-        }, // Window Content Padding
-        position: "absolute", // Window Position
-        positionX: "10vw", // Window Position X (when first opened)
-        positionY: "15vh", // Window Position Y (when first opened)
-        iconImage: "resume.png", // Window Icon Image
-        altText: "Résumé", // Window Icon Alt Text
-        fullscreen: false, // Window Fullscreen State [true, false]
-        showInAppGrid: true,
-        showInNavbar: true,
-      },
-      {
-        windowId: "ImagePreviewWindow",
-        windowState: "close",
-        displayName: "Media Viewer",
-        windowComponent: "ImagePreviewWindow",
-        windowContent: "",
-        windowContentPadding: {
-          top: "1px",
-          right: "10px",
-          bottom: "10px",
-          left: "10px",
-        },
-        position: "absolute",
-        positionX: "6vw",
-        positionY: "12vh",
-        iconImage: "image.png",
-        altText: "Photos",
-        fullscreen: false,
-        showInAppGrid: false,
-        showInNavbar: false,
-        // imagePreview: file.src
-      },
-      {
-        windowId: "NOSSAFLEXWindow",
-        windowState: "close",
-        displayName: "NOSSAFLEX",
-        windowComponent: "window",
-        windowContent: "nossaflex",
-        windowContentPadding: {
-          top: null,
-          right: null,
-          bottom: null,
-          left: null,
-        },
-        position: "absolute",
-        positionX: "6vw",
-        positionY: "12vh",
-        iconImage: "noss.webp",
-        altText: "NOSSAFLEX App",
-        fullscreen: false,
-        showInAppGrid: true,
-        showInNavbar: true,
-      },
-      {
-        windowId: "AppleWWDC2021",
-        windowState: "close",
-        displayName: "WWDC 2021",
-        windowComponent: "window",
-        windowContent: "wwdc2021",
-        windowContentPadding: {
-          top: null,
-          right: null,
-          bottom: null,
-          left: null,
-        },
-        position: "absolute",
-        positionX: "4vw",
-        positionY: "12vh",
-        iconImage: "apple.png",
-        altText: "Apple WWDC 2021",
-        fullscreen: false,
-        showInAppGrid: true,
-        showInNavbar: true,
-      },
-      {
-        windowId: "AppleWWDC2022",
-        windowState: "close",
-        displayName: "WWDC 2022",
-        windowComponent: "window",
-        windowContent: "wwdc2022",
-        windowContentPadding: {
-          top: null,
-          right: null,
-          bottom: null,
-          left: null,
-        },
-        position: "absolute",
-        positionX: "4vw",
-        positionY: "12vh",
-        iconImage: "apple2.png",
-        altText: "Apple WWDC 2022",
-        fullscreen: false,
-        showInAppGrid: true,
-        showInNavbar: true,
-      },
-      {
-        windowId: "OpenSourceWindow",
-        windowState: "close",
-        displayName: "Open Source",
-        windowComponent: "window",
-        windowContent: "opensource",
-        windowContentPadding: {
-          top: null,
-          right: "15px",
-          bottom: null,
-          left: "15px",
-        },
-        position: "absolute",
-        positionX: "6vw",
-        positionY: "12vh",
-        iconImage: "opensource.png",
-        altText: "Open Source Projects",
-        fullscreen: false,
-        showInAppGrid: true,
-        showInNavbar: true,
-      },
+      // {
+      //   windowId: "ResumeWindow", // Unique ID
+      //   windowState: "close", // Window State [open, close, minimize]
+      //   displayName: "Résumé", // Display Name (title under icon)
+      //   windowComponent: "window", // Window Component (can be changed to use modified windows)
+      //   windowContent: "resume", // Window Content (used under slots)
+      //   windowContentPadding: {
+      //     top: "0",
+      //     right: "0",
+      //     bottom: "0",
+      //     left: "0",
+      //   }, // Window Content Padding
+      //   position: "absolute", // Window Position
+      //   positionX: "10vw", // Window Position X (when first opened)
+      //   positionY: "15vh", // Window Position Y (when first opened)
+      //   iconImage: "resume.png", // Window Icon Image
+      //   altText: "Résumé", // Window Icon Alt Text
+      //   fullscreen: false, // Window Fullscreen State [true, false]
+      //   showInAppGrid: true,
+      //   showInNavbar: true,
+      // },
+      // {
+      //   windowId: "ImagePreviewWindow",
+      //   windowState: "close",
+      //   displayName: "Media Viewer",
+      //   windowComponent: "ImagePreviewWindow",
+      //   windowContent: "",
+      //   windowContentPadding: {
+      //     top: "1px",
+      //     right: "10px",
+      //     bottom: "10px",
+      //     left: "10px",
+      //   },
+      //   position: "absolute",
+      //   positionX: "6vw",
+      //   positionY: "12vh",
+      //   iconImage: "image.png",
+      //   altText: "Photos",
+      //   fullscreen: false,
+      //   showInAppGrid: false,
+      //   showInNavbar: false,
+      //   // imagePreview: file.src
+      // },
+      // {
+      //   windowId: "NOSSAFLEXWindow",
+      //   windowState: "close",
+      //   displayName: "NOSSAFLEX",
+      //   windowComponent: "window",
+      //   windowContent: "nossaflex",
+      //   windowContentPadding: {
+      //     top: null,
+      //     right: null,
+      //     bottom: null,
+      //     left: null,
+      //   },
+      //   position: "absolute",
+      //   positionX: "6vw",
+      //   positionY: "12vh",
+      //   iconImage: "noss.webp",
+      //   altText: "NOSSAFLEX App",
+      //   fullscreen: false,
+      //   showInAppGrid: true,
+      //   showInNavbar: true,
+      // },
+      // {
+      //   windowId: "AppleWWDC2021",
+      //   windowState: "close",
+      //   displayName: "Taylor Matthes",
+      //   windowComponent: "window",
+      //   windowContent: "wwdc2021",
+      //   windowContentPadding: {
+      //     top: null,
+      //     right: null,
+      //     bottom: null,
+      //     left: null,
+      //   },
+      //   position: "absolute",
+      //   positionX: "4vw",
+      //   positionY: "12vh",
+      //   iconImage: "apple.png",
+      //   altText: "Apple WWDC 2021",
+      //   fullscreen: false,
+      //   showInAppGrid: true,
+      //   showInNavbar: true,
+      // },
+      // {
+      //   windowId: "AppleWWDC2022",
+      //   windowState: "close",
+      //   displayName: "WWDC 2022",
+      //   windowComponent: "window",
+      //   windowContent: "wwdc2022",
+      //   windowContentPadding: {
+      //     top: null,
+      //     right: null,
+      //     bottom: null,
+      //     left: null,
+      //   },
+      //   position: "absolute",
+      //   positionX: "4vw",
+      //   positionY: "12vh",
+      //   iconImage: "apple2.png",
+      //   altText: "Apple WWDC 2022",
+      //   fullscreen: false,
+      //   showInAppGrid: true,
+      //   showInNavbar: true,
+      // },
+      // {
+      //   windowId: "OpenSourceWindow",
+      //   windowState: "close",
+      //   displayName: "Open Source",
+      //   windowComponent: "window",
+      //   windowContent: "opensource",
+      //   windowContentPadding: {
+      //     top: null,
+      //     right: "15px",
+      //     bottom: null,
+      //     left: "15px",
+      //   },
+      //   position: "absolute",
+      //   positionX: "6vw",
+      //   positionY: "12vh",
+      //   iconImage: "opensource.png",
+      //   altText: "Open Source Projects",
+      //   fullscreen: false,
+      //   showInAppGrid: true,
+      //   showInNavbar: true,
+      // },
       {
         windowId: "MailWindow",
         windowState: "close",
@@ -1281,31 +1281,31 @@ export default new Vuex.Store({
         showInAppGrid: true,
         showInNavbar: true,
       },
-      {
-        windowId: "WebOSWindow",
-        windowState: "close",
-        displayName: "OS",
-        windowComponent: "webos",
-        windowContent: "",
-        windowContentPadding: {
-          top: "0",
-          right: "0",
-          bottom: "0",
-          left: "0",
-        },
-        position: "absolute",
-        positionX: "6vw",
-        positionY: "12vh",
-        iconImage: "webos.png",
-        altText: "Web OS",
-        fullscreen: true,
-        showInAppGrid: true,
-        showInNavbar: true,
-      },
+      // {
+      //   windowId: "WebOSWindow",
+      //   windowState: "close",
+      //   displayName: "OS",
+      //   windowComponent: "webos",
+      //   windowContent: "",
+      //   windowContentPadding: {
+      //     top: "0",
+      //     right: "0",
+      //     bottom: "0",
+      //     left: "0",
+      //   },
+      //   position: "absolute",
+      //   positionX: "6vw",
+      //   positionY: "12vh",
+      //   iconImage: "webos.png",
+      //   altText: "Web OS",
+      //   fullscreen: true,
+      //   showInAppGrid: true,
+      //   showInNavbar: true,
+      // },
       // register your new windows here
     ],
     mailContent: "",
-    mailSender: "",
+    mailSender: "Donnnn",
     mailSubject: "New Message",
   },
   mutations: {

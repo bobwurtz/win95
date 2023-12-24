@@ -222,6 +222,7 @@ export default {
     this.$store.commit("pushNewWindow", newPhotoWindowPayload);
 
     this.openWindow("BiographyWindow");
+    // this.openWindow("AppleWWDC2021");
   },
   methods: {
     openWindow(windowId) {

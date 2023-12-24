@@ -1,131 +1,305 @@
 <template>
   <div>
-    <img
-      src="@/assets/Wwdc/ssc2021.jpg"
-      alt="Swift Student Challenge"
-      class="hero"
-    />
-    <div class="inner-content">
-      <h3 class="heading"><b>Apple WWDC Swift Student Challenge 2021</b></h3>
-      <p class="paragraph">
-        I began my swift journey in early 2020 after starting work on the early
-        phases of NOSSAFLEX. From then on, I started picking up SwiftUI, a
-        declarative frontend framework for the Swift language.
-      </p>
+    <img class="self" src="@/assets/Wwdc/taylor.jpg" />
+    <h2 class="header">Taylor Matthes</h2>
+    <h4 class="subtitle" style="padding-bottom: 10px">
+      Age: 30 | Height: 5'6" | Occuptation: Nurse |
+      Hobbies: ...
+    </h4>
+    <h4 class="" style="text-align: left;">St. Louis 📍</h4>
+    <div class="badge-grid">
+      <div style="background-color: #ff5733; padding: 10px;">
+        Gemini
+      </div>
     </div>
-    <img src="@/assets/Wwdc/2021_1.jpg" class="images" />
-    <h6 class="subtitle">Page 1 of Submission</h6>
-    <div class="inner-content">
-      <h3 class="heading"><b>Ideation</b></h3>
-      <p class="paragraph">
-        Ideation begin when Apple announced that submissions were open to all
-        students around the world. I promptly selected an area of development
-        work I had particular interest in, web development. I built on the idea
-        of web development in an app and began building prototypes for the
-        project, I first created a simple app that allowed live editing of
-        HTML/CSS pages with SwiftUI.
-      </p>
-    </div>
-    <img src="@/assets/Wwdc/2021_2.jpg" class="images" />
-    <h6 class="subtitle">Page 2 of Submission</h6>
-    <div class="inner-content">
-      <h3 class="heading"><b>Content</b></h3>
-      <p class="paragraph">
-        What I quickly realised was that simply having an app that 'worked' was
-        just part of a successful submission, one had to back it up with
-        interesting content while demonstrating the technical prowess that the
-        developer could pull off. I hence decided to create a tutorial-esque
-        playground project that taugh users how to use HTML/CSS.
-      </p>
-      <p class="paragraph">
-        Furthermore, by picking up simple HTML/CSS skills, users could find out
-        more about me, through interesting facts about me, by simply
-        participating in the simple challenges handed to them within the
-        project. This enabled users to learn more about me while also having a
-        fruitful learning experience.
-      </p>
-    </div>
-    <img src="@/assets/Wwdc/2021_3.jpg" class="images" />
-    <h6 class="subtitle">Page 3 of the Submission</h6>
-    <div class="inner-content">
-      <h3 class="heading"><b>Submission</b></h3>
-      <p class="paragraph">
-        After wrapping up the development process of the project, I had to
-        submit two 500 word essays regarding the project and my experiences with
-        computer science outside of WWDC. Here's a pro-tip to anybody wishing to
-        participate in WWDC SSC, submit both essays even if it might state that
-        it's optional! Apple will judge your entire submission alongside the
-        essays and they definitely do play a large part in the judging process.
-      </p>
-    </div>
-    <img src="@/assets/Wwdc/wwdc2021_win.jpg" class="images" />
-    <h6 class="subtitle">Winner's Page for 2021</h6>
-    <div class="inner-content">
-      <h3 class="heading"><b>2021's Success</b></h3>
-      <p class="paragraph">
-        I successfully clinched WWDC SSC 2021 and was one of the 350 students
-        worldwide that was awarded the winning prize. Alongside my win, I was
-        also offered a media opportunity with the local media outlet that year
-        and I had the chance to appear on local news the next month, discussing
-        about my development journey.
-      </p>
-    </div>
-    <img src="@/assets/Wwdc/swag2021.jpg" class="images-full" />
-    <h6 class="subtitle" style="padding-bottom: 30px">WWDC Swag!</h6>
-    <div class="images">
-      <embed
-        src="https://www.youtube.com/embed/qGlhv0LeLVE?autohide=1&autoplay=0"
-        wmode="transparent"
-        type="video/mp4"
-        width="100%"
-        height="100%"
-        allow="autoplay; encrypted-media; picture-in-picture"
-        allowfullscreen
-        title="WWDC Interview"
+    <!--<img
+        class="badge"
+        alt="Python"
+        src="https://img.shields.io/badge/-Python-blue"
       />
+      <img
+        class="badge"
+        alt="JavaScript"
+        src="https://img.shields.io/badge/-Javascript-yellow"
+      />
+      <img
+        class="badge"
+        alt="SQL"
+        src="https://img.shields.io/badge/-SQL-lightgrey"
+      />
+      <img
+        class="badge"
+        alt="Git"
+        src="https://img.shields.io/badge/-Git-critical"
+      />
+      <img
+        class="badge"
+        alt="HTML/CSS"
+        src="https://img.shields.io/badge/-HTML%2FCSS-yellowgreen"
+      />
+      <img
+        class="badge"
+        alt="SwiftUI"
+        src="https://img.shields.io/badge/-SwiftUI-3e8bc3"
+      />
+      <img
+        class="badge"
+        alt="Vue"
+        src="https://img.shields.io/badge/-VueJS-61b083"
+      />
+      <img
+        class="badge"
+        alt="Flask"
+        src="https://img.shields.io/badge/-Flask-406893"
+      />
+      <img
+        class="badge"
+        alt="MongoDB"
+        src="https://img.shields.io/badge/-MongoDB-4ca158"
+      />
+      <img
+        class="badge"
+        alt="SQLite"
+        src="https://img.shields.io/badge/-SQLite-64a2c9"
+      />
+      <img
+        class="badge"
+        alt="Figma"
+        src="https://img.shields.io/badge/-Figma-8c5aee"
+      />
+    </div> -->
+    <div class="inner-content">
+      <h3 class="heading"><b>About Me</b></h3>
+      <p class="paragraph">
+        Hello there! I am Don from Singapore and I am an 18 year old student
+        who's extremely passionate in both programming and design for both the
+        web and iOS platform. I am currently still a student in high school but
+        let not my age be the key defining factor as I often aim to punch above
+        my weight.
+      </p>
+      <p class="paragraph">
+        I have worked with a mixture of design and frontend/backend
+        technologies, be it for Web Development or iOS Development.
+      </p>
+    </div>
+    <div class="inner-content">
+      <h3 class="heading"><b>NOSSAFLEX</b></h3>
+      <p class="paragraph">
+        NOSSAFLEX is an EXIF organising tool for analog photographers like
+        myself. It was built using Swift along with the newest framework from
+        Apple, SwiftUI and also a NoSQL database from Google, Firebase. It is an
+        organisation based and registered in Australia.
+      </p>
+      <p class="paragraph">
+        Team NOSSAFLEX consists of a small but tightly knit team. They are,
+        Diego from the USA, Josh and his sister, Maddie from Australia and
+        myself from Singapore. We are an international team that complements
+        each other's strengths. Josh being the brains behind this operations
+        leads our team in marketting as well as the UI/UX design of the app,
+        Diego leads the team with his prowness in Swift as a backend language
+        and I lead the team in the frontend department, helping assemble Josh's
+        ideas into reality using SwiftUI.
+      </p>
+      <p class="paragraph">
+        We recently launched our app onto the international App Store,
+        exclusively for iOS and we are proud to see the support the Analog
+        community has given us. Over 1k new and unique users signed up for the
+        app within the first weeks of the launch, not too shabby considering how
+        niche our target group is.
+      </p>
+    </div>
+
+    <div class="inner-content">
+      <h3 class="heading"><b>Apple WWDC Scholar 2021</b></h3>
+      <p class="paragraph">
+        My second try at Apple's international coding competition was finally a
+        successful one. Making use of my prowess with web development, I decided
+        to create a Swift Playground project that taught users how to make use
+        of HTML and CSS to create a simple website.
+      </p>
+      <p class="paragraph">
+        Making use of Apple's SwiftUI framework as well as the nifty WKWebView
+        API, I managed to create a working editor that would allow users to
+        meddle with HTML and CSS. I proceeded to create a playground book
+        project around that idea and came up with a tutorial sequence for the
+        user to follow.
+      </p>
+      <p class="paragraph">
+        Check out my submission
+        <a style="color: #ff5733" href="https://github.com/DonChiaQE/WWDC2021"
+          >here</a
+        >!
+      </p>
+      <p class="paragraph">
+        And check out my interview with the local news outlet regarding
+        NOSSAFLEX and my WWDC experience
+        <a
+          style="color: #ff5733"
+          href="https://www.youtube.com/watch?v=RwtzXxSSJAc"
+          >right here</a
+        >!
+      </p>
+    </div>
+
+    <div class="inner-content">
+      <h3 class="heading"><b>Apple WWDC Scholar 2022</b></h3>
+      <p class="paragraph">
+        Yet another successful attempt at Apple's international coding
+        competition. By making use of SwiftUI once more, I created a short app
+        experience that explores recursive art patterns and abstract art. With
+        the help of generative art, I was able to create a unique experience
+        that most people would have rarely come across.
+      </p>
+      <p class="paragraph">
+        Check out my submission
+        <a style="color: #ff5733" href="https://github.com/DonChiaQE/ReGen"
+          >here</a
+        >!
+      </p>
+      <p class="paragraph">
+        As this news has only just recently reached me, I will be updating this
+        section once more when I have receive more news from Apple HQ.
+      </p>
+    </div>
+
+    <div class="inner-content">
+      <h3 class="heading"><b>Internships</b></h3>
+      <p class="paragraph">
+        I have had two internship opportunities so far. The first internship was
+        at a local SME firm that created a variety of software technologies for
+        projects and the second internship was a local startup Fintech firm.
+      </p>
+      <p class="paragraph">
+        Throughout the internships I worked with a mixture of iOS and Web
+        Technologies. Storyboarding and UIKit was used in my first tech
+        internship and Vuejs with Bootstrap was used in my second internship as
+        I was a frontend intern.
+      </p>
+    </div>
+
+    <div class="inner-content">
+      <h3 class="heading"><b>iOS Developer</b></h3>
+      <p class="paragraph">
+        As listed above, I have over a year of experience with SwiftUI and have
+        had plenty of projects that features the use of SwiftUI. SwiftUI was
+        used in most of the components building NOSSAFLEX and the components
+        featured required custom styling to fit our themeing. I have also had
+        the chance to participate in two WWDC Student Challenges in 2020 as well
+        as 2021, both projects featured SwiftUI and a variety of other Swift
+        technologies.
+      </p>
+      <p class="paragraph">
+        Here are some of the projects I have contributed towards.
+        <a style="color: #ff5733" href="https://github.com/DonChiaQE/WWDC2021"
+          >[Submission for WWDC 2021]</a
+        >
+        <a
+          style="color: #ff5733"
+          href="https://github.com/DonChiaQE/push-pop-push-views-swiftui-example"
+          >[Push and Popping Solution for SwiftUI]</a
+        >
+      </p>
+    </div>
+
+    <div class="inner-content">
+      <h3 class="heading"><b>Web Developer</b></h3>
+      <p class="paragraph">
+        As a web developer, I have also had a lot of chances to practice and
+        participate in projects to further hone my skills. I have plenty of
+        experience with backend Python as well as databases using SQL or NoSQL
+        solutions. But most of my time is dedicated to frontend development
+        using Vuejs and elaborate styling of websites (such as this one 😁).
+      </p>
+      <p class="paragraph">
+        Here are some of the projects I have contributed towards.
+        <a
+          style="color: #ff5733"
+          href="https://github.com/dunmanhigh-isac/dhap-2021"
+          >[MUN Website for School]</a
+        >
+        <a
+          style="color: #ff5733"
+          href="https://github.com/DonChiaQE/marketplace"
+          >[CMS Marketplace]</a
+        >
+        <a style="color: #ff5733" href="https://github.com/zaydek/duomo"
+          >[SCSS Library]</a
+        >
+      </p>
+    </div>
+
+    <div class="inner-content">
+      <h3 class="heading"><b>UI/UX Designer</b></h3>
+      <p class="paragraph">
+        Fullstack development is very sought after nowadays and I have made sure
+        to keep up with such trends by honing my skills in UI/UX design as well.
+        I am thankful for the various opportunities I have had to work alongside
+        industry expert and have also taken the chance to learn and hone my
+        UI/UX design skills with tools such as Figma.
+      </p>
+    </div>
+
+    <!-- <div class="inner-content">
+                            <div class="heading"><b>Interests and Hobbies</b></div>
+                            <div class="paragraph">Analog photography and colorizing of historical photos have always interested me and some of my photographic works are displayed <span style="cursor: pointer; color: #FF5733;" v-on:click="showPhotos">here</span> while you can find my colorization portfolio <span style="cursor: pointer; color: #FF5733;" v-on:click="showColorization">here</span>.</div>
+                        </div> -->
+
+    <div class="inner-content">
+      <h3 class="heading"><b>Résumé</b></h3>
+      <a
+        style="color: #ff5733"
+        href="/files/don_chia_resume.pdf"
+        class="paragraph"
+        >Check out my résumé here.</a
+      >
     </div>
   </div>
 </template>
 
 <style scoped>
-.hero {
-  width: 100%;
-  background-position: center center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  border: 1px solid rgb(0, 0, 0, 0.1);
+.badge-grid {
+  display: table;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.images {
-  width: 100%;
-  height: 350px;
-  /* object-fit: cover; */
+.badge {
+  width: auto;
+  height: 20px;
+  border-radius: 0px;
+  font-size: 12px;
+  padding-right: 10px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
 }
 
-.images-full {
+.self {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  /* border-radius: 5px; */
 }
 
 .subtitle {
   font-size: 12px;
   color: gray;
-  text-align: center;
 }
 
 .heading {
   padding-bottom: 5px;
 }
 
-.inner-content {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-h6,
+.inner-content {
+  padding-top: 30px;
+}
+
+h2,
+h4,
 h3 {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 </style>

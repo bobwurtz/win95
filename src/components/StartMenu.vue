@@ -13,10 +13,10 @@
           <div class="social-text"><u>I</u>nstagram</div>
         </div>
       </a>
-      <a href="https://www.reddit.com/user/satoshigekkouga2303" target="_blank">
+      <!-- <a href="https://www.reddit.com/user/satoshigekkouga2303" target="_blank">
         <div class="bar">
           <img class="social-image" src="@/assets/iPhone-Icons/Reddit.webp" />
-          <u>R</u>eddit
+          <u>R</u>edditrrr
         </div>
       </a>
       <a
@@ -58,7 +58,7 @@
           />
           <u>N</u>OSSAFLEX
         </div>
-      </a>
+      </a> -->
     </div>
   </div>
 </template>

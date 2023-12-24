@@ -98,7 +98,7 @@
             <hr />
             <div class="subject-container">
               <p style="margin: 8px">To:</p>
-              <div class="receipient">Don</div>
+              <div class="receipient">Sean and Taylor Need Dates</div>
             </div>
             <hr />
             <div class="subject-container">

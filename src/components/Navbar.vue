@@ -81,7 +81,7 @@
           Mail
         </div>
 
-        <div
+        <!-- <div
           alt="Resume"
           class="icon-resume"
           v-on:click="showResume"
@@ -92,7 +92,7 @@
         >
           <img class="icon-image" src="../assets/iPhone-Icons/resume.png" />
           Résumé
-        </div>
+        </div> -->
         <div
           alt="Resume"
           class="icon-resume"
