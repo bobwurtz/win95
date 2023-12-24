@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
+import emailjs from 'emailjs-com';
 
 Vue.use(Vuex);
 
@@ -1305,7 +1306,7 @@ export default new Vuex.Store({
       // register your new windows here
     ],
     mailContent: "",
-    mailSender: "Donnnn",
+    mailSender: "Don",
     mailSubject: "New Message",
   },
   mutations: {

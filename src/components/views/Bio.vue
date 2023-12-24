@@ -118,6 +118,8 @@
         “Still one of the best cuddles I’ve ever had on a basement floor.” - Noah F. 
         <br><br>
         “These two are awesome.” - Mike F.
+        <br><br>
+        4/5 previous partners reported feeling at least moderately satisfied
       </p>
     </div>
 

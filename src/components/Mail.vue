@@ -16,7 +16,7 @@
     ></iframe>
     <form
       v-on:submit="sendEmail"
-      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdRBqHB0Z6GOjwE3jniX8-fHfJK-WcyzNTmkPFg4fg2SYPwpA/formResponse"
+      action="https://docs.google.com/forms/d/1YBfOxPlzZiO7xvfrUVdAUebXyi2AaWCF8AvjO44j4nk/formResponse"
       class="window"
       id="container"
       :class="{

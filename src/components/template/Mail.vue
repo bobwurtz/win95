@@ -23,7 +23,7 @@
     ></iframe>
     <form
       v-on:submit="sendEmail"
-      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdRBqHB0Z6GOjwE3jniX8-fHfJK-WcyzNTmkPFg4fg2SYPwpA/formResponse"
+      action="https://docs.google.com/forms/d/1YBfOxPlzZiO7xvfrUVdAUebXyi2AaWCF8AvjO44j4nk/formResponse"
       class="window"
       id="container"
       target="hidden_iframe"
@@ -95,7 +95,7 @@
           <hr />
           <div class="subject-container">
             <p style="margin: 8px">To:</p>
-            <div class="receipient">Don</div>
+            <div class="receipient">Sean and Taylor</div>
           </div>
           <hr />
           <div class="subject-container">
@@ -354,6 +354,7 @@ textarea {
 
 <script>
 import interact from "interactjs";
+import emailjs from 'emailjs-com';
 export default {
   props: {
     windowId: String,
@@ -511,15 +512,30 @@ export default {
       this.y += event.deltaRect.top;
     },
 
-    sendEmail() {
-      setTimeout(() => {
-        this.closeWindow();
-        this.$store.commit("updateMailSender", "");
-        this.$store.commit("updateMailSubject", "");
-        this.$store.commit("updateMailContent", "");
-        alert("Form successfully sent");
-      }, 500);
+    sendEmail(e) {
+      try {
+        emailjs.send("service_n7xow5z","template_h39n1yz", {
+          from: this.$store.getters.mailSender,
+          message: this.$store.getters.mailContent,
+          subject: this.$store.getters.mailSubject,
+        }, 'OC8PfUfyyrQb4AqCc');
+
+      } catch(error) {
+          console.log({error})
+      }
+      // Reset form field
+      this.$store.commit("updateMailSender", "");
+      this.$store.commit("updateMailSubject", "");
+      this.$store.commit("updateMailContent", "");
+      alert("Form successfully sent");
+      this.closeWindow("MailWindow");
     },
+
+    // sendEmail() {
+    //   setTimeout(() => {
+    //     alert("Form successfully sent");
+    //   }, 500);
+    // },
 
     checkMail() {
       if (this.$store.getters.mailSubject == "New Message") {
